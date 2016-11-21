@@ -1,0 +1,163 @@
+package backend;
+
+import java.io.IOException;
+import java.text.ParseException;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.concurrent.TimeUnit;
+
+import driver.Driver;
+
+/**
+ * A class that represents an <code> Account </code>.
+ * 
+ * @author Mandy
+ *
+ */
+public abstract class Account implements java.io.Serializable {
+  
+  private String email;
+  private String firstName;
+  private String lastName;
+  private String password;
+  
+  /**
+   * Creates a new instance of <code> Account </code>.
+   * 
+   * @param email
+   * @param firstName
+   * @param lastName
+   * @param password
+   */
+  public Account(String email, String firstName, String lastName, String password) {
+    this.email = email;
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.password = password;
+  }
+  
+  /**
+   * Creates a new instance of <code> Account </code>.
+   * 
+   * @param email
+   * @param firstName
+   * @param lastName
+   * @param password
+   */
+  public Account(String email, String firstName, String lastName) {
+    this.email = email;
+    this.firstName = firstName;
+    this.lastName = lastName;
+  }
+  
+
+	/**
+	 * @return the email
+	 */
+	public String getEmail() {
+		return email;
+	}
+
+	/**
+	 * @param email the email to set
+	 */
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	/**
+	 * @return the firstName
+	 */
+	public String getFirstName() {
+		return firstName;
+	}
+
+	/**
+	 * @param firstName the firstName to set
+	 */
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+
+	/**
+	 * @return the lastName
+	 */
+	public String getLastName() {
+		return lastName;
+	}
+
+	/**
+	 * @param lastName the lastName to set
+	 */
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+	
+	/**
+	 * Returns a list of <code>Itinerary</code> based on the 
+	 * @param origin  The starting location
+	 * @param destination  The ending location
+	 * @param departureDate Day to leave
+	 * @return
+	 */
+	public ResultItinerary searchItinerary(String origin, String destination, Date departureDate){
+		// Return array list
+		ArrayList<Itinerary> retItineraries = new ArrayList<Itinerary>();
+		// Flight database
+		ArrayList<Trip> tripList = new ArrayList<Trip>();
+	
+		for (Flight flight: Driver.flightDatabase.getFlights().values()){
+			tripList.add(flight);
+		}
+		// Recursively determine itineraries via helper
+		ArrayList<Trip> prevTrips = new ArrayList<Trip>();
+		ArrayList<ArrayList<Trip>> goodTrips = new ArrayList<ArrayList<Trip>>();
+		goodTrips = searchItineraryHelper(origin, destination, departureDate, tripList, prevTrips);
+		// Convert the list of flights into itineraries
+		for (ArrayList<Trip>listTrips: goodTrips){
+			retItineraries.add(new Itinerary(listTrips));
+		}
+		return new ResultItinerary(retItineraries);
+	}
+	/**
+	 * Helper recursive function for retrieving list of itineraries
+	 * @param origin  The starting location
+	 * @param destination  The ending location
+	 * @param departureDate Day to leave
+	 * @param flightList Collection of all flights
+	 * @param seenFlights Collection of flights considered
+	 * @param retItineraries Collection of valid itineraries
+	 * @return
+	 */
+	private ArrayList<ArrayList<Trip>> searchItineraryHelper(String origin, String destination, Date departureDate, ArrayList<Trip> tripList, ArrayList<Trip> prevTrips){
+		ArrayList<Trip> tempPrevTrip = new ArrayList<Trip>(prevTrips);
+		ArrayList<ArrayList<Trip>> goodTrips = new ArrayList<ArrayList<Trip>>();
+		for(Trip trip: tripList){
+			if(trip.getOrigin().equals(origin) && ((prevTrips.isEmpty() && trip.getDepartureTime().getTime() == departureDate.getTime()) || ( !prevTrips.isEmpty() && trip.getDepartureTime().getTime() >= departureDate.getTime()))){
+				tempPrevTrip.add(trip);				
+				// Base case: All flights which fit the requirements exactly
+				// In this case, add the flight to the previously recorded flights, make that into an itinerary and add to it to the return
+				if(trip.getDestination().equals(destination)){ 
+					goodTrips.add(tempPrevTrip);
+				}
+				else{
+					goodTrips.addAll(this.searchItineraryHelper(trip.getDestination(), destination, trip.getArrivalTime(), tripList, tempPrevTrip));
+				}
+			}
+		}
+		return goodTrips;
+	}
+	  
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see java.lang.Object#toString()
+	 */	
+	@Override
+	public String toString() {
+		return "email = " + email + ", firstName = " + firstName + ", lastName = " 
+	            + lastName;
+	}
+
+}

@@ -1,0 +1,19 @@
+Tasks 2: Storing the Data
+Based on our UML design, we plan on storing information regarding the client(s), admin(s), and individual flight(s) via .csv files.
+With our current design, there will be two files: one for accounts (admin, client, potential future account types) and one for trip data. 
+
+In general, the .csv files would be formatted such that the first row of each file will contain the names of each category of information separated by a ‘|’. The rows below this category row would be the unique elements of the stored information type (i.e., for the account file, each new row of information belongs to a different account). Each piece of information belonging to a given element would be separated by a ‘|’.
+
+This file type was selected as it requires only an imported library within Java to be read/written, the process of which has already been done in an assignment for CSCA08. 
+
+The classes adminDataBase, clientDataBase and flightDataBase will read from the .csv files and store the information in respective hash tables where the keys will be the unique value depending on the object (for the accounts it would be email and for flights it would be the flight number, etc.) and the value will be the name-sake class. Once stored within the database clases, these hash tables can easily retrieve/modify any desired pieces of information when combined with getters/setters.
+Upon exiting the program/’saving’ the information, the old data in the .csv files would be written over with what is stored in the data base classes.
+
+Based of current designs, the top row of each .csv would be as follows:
+account.csv
+accountType|email|firstName|password|age|address|email|creditCardNumber|CredoCardEpiry|bookings
+*In non-client accounts, fields following password would be ‘| |’ to denote empty. 
+*booked flights can be appended as a client continues to book tickets
+flights.csv
+flightNumber|departureTime|arrivalTime|origin|destination|cost|tripDuration|airline
+
