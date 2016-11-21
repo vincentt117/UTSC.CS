@@ -1,0 +1,54 @@
+package backend;
+
+import backend.FlightDatabase;
+
+import java.io.IOException;
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.HashMap;
+
+public class Test {
+
+	public static void main(String args[]) throws ParseException {
+
+		// create the dates
+		DateFormat df = new SimpleDateFormat("MM-dd-yyyy");
+		Date d1a = df.parse("12-10-2016");
+		Date d1d = df.parse("12-9-2016");
+		Date d2a = df.parse("12-11-2016");
+		Date d2d = df.parse("12-9-2016");
+		// instantiate the flights
+		Flight a = new Flight("a", d1d, d1a, "x", "y", "z", 10.5);
+		Flight b = new Flight("b", d2d, d2a, "a", "b", "c", 11.5);
+		/*
+		 * //add the flights to the itinerary ArrayList<Trip> flighta = new
+		 * ArrayList<Trip>(); flighta.add(a); Itinerary itinerary1 = new
+		 * Itinerary(flighta); ArrayList<Trip> flightb = new ArrayList<Trip>();
+		 * flightb.add(b); Itinerary itinerary2 = new Itinerary(flightb);
+		 * //instantiate the resultitinerary ArrayList<Itinerary> array1 = new
+		 * ArrayList<Itinerary>(); array1.add(itinerary2);
+		 * array1.add(itinerary1); //show the costs before getting sorted for
+		 * (Itinerary i : array1) { System.out.println(i.getTotalCost()); }
+		 * //show the costs after getting sorted ResultItinerary result = new
+		 * ResultItinerary(array1); ResultItinerary p = result.sortByCost();
+		 * System.out.println(p);
+		 */
+		FlightDatabase database = new FlightDatabase(System.getProperty("user.dir") + "/src/sampletests/flights3.txt");
+		database.addFlight(a);
+		HashMap<String, Flight> k = database.deserialize();
+		System.out.println(k);
+		database.removeFlight("a");
+		k = database.deserialize();
+		System.out.println(k);
+		database.addFlight(b);
+		k = database.deserialize();
+		System.out.println(k);
+		
+	    
+
+	}
+
+}

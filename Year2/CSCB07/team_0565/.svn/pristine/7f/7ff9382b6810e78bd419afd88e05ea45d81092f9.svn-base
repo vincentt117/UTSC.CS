@@ -1,0 +1,182 @@
+package backend;
+
+import java.util.Date;
+import java.util.List;
+
+public class Client extends Account {
+
+  private int age;
+  private String address;
+  private List<Itinerary> bookings;
+  private int creditCardNumber;
+  private Date creditCardExpiry;
+
+  /**
+   * @param age
+   * @param address
+   * @param bookings
+   * @param creditCardNumber
+   * @param creditCardExpiry
+   */
+  public Client(int age, String address, List<Itinerary> bookings, int creditCardNumber, Date creditCardExpiry) {
+    super("", "", "", "");
+    this.age = age;
+    this.address = address;
+    this.bookings = bookings;
+    this.creditCardNumber = creditCardNumber;
+    this.creditCardExpiry = creditCardExpiry;
+  }
+
+  /**
+   * Given a Itinerary, removes that Itinerary from the itinerary of the Client
+   * 
+   * @param booking
+   *          The Itinerary or flights to be removed from the itinerary
+   */
+  // this method could also be overloaded to allow for only the ids to delete
+  // the flight for more flexibility
+  public void cancelFlight(Itinerary booking) {
+    bookings.remove(booking);
+  }
+
+  /**
+   * Given a Itinerary, books that Itinerary for the client
+   * 
+   * @param booking
+   *          The Itinerary or flights to be booked
+   */
+  public void purchaseFlight(Itinerary booking) {
+    bookings.add(booking);
+  }
+
+  /**
+   * Given an Itinerary, calculate the total cost of that Itinerary
+   * 
+   * @return cost a double value representing the cost
+   */
+  public double calculateTotalCost(Itinerary itinerary) {
+    return itinerary.getTotalCost();
+  }
+
+  /**
+   * Returns that total cost of all Itineraries booked by the client
+   * 
+   * @return cost a double value representing the cost
+   */
+  public double displayTotalCost() {
+    double totalCost = 0;
+    for (Itinerary i : bookings) {
+      totalCost += i.getTotalCost();
+    }
+    return totalCost;
+  }
+
+  /**
+   * Gives the current age of the customer defined by the customer
+   * 
+   * @return the age The current age of the client represented by an integer
+   */
+  public int getAge() {
+    return age;
+  }
+
+  /**
+   * Given an age, sets the age of the client to be that age
+   * 
+   * @param age
+   *          the age to set The current age of the client represented by an
+   *          integer
+   */
+  public void setAge(int age) {
+    this.age = age;
+  }
+
+  /**
+   * Returns the current mailing address of a customer as a string Some examples
+   * of this is L1V 6Y9, or 1500 Queens Street, Toronto
+   * 
+   * @return the address The mailing adress of the client represented by a
+   *         String
+   */
+  public String getAddress() {
+    return address;
+  }
+
+  /**
+   * Set the mailing address of the client
+   * 
+   * @param address
+   *          the address to set The mailing adress of the client represented by
+   *          a String
+   */
+  public void setAddress(String address) {
+    this.address = address;
+  }
+
+  /**
+   * @return the creditCardNumber
+   */
+  public int getCreditCardNumber() {
+    return creditCardNumber;
+  }
+
+  /**
+   * @param creditCardNumber
+   *          the creditCardNumber to set
+   */
+  public void setCreditCardNumber(int creditCardNumber) {
+    this.creditCardNumber = creditCardNumber;
+  }
+
+  /**
+   * @return the creditCardExpiry
+   */
+  public Date getCreditCardExpiry() {
+    return creditCardExpiry;
+  }
+
+  /**
+   * @param creditCardExpiry
+   *          the creditCardExpiry to set
+   */
+  public void setCreditCardExpiry(Date creditCardExpiry) {
+    this.creditCardExpiry = creditCardExpiry;
+  }
+
+  /*
+   * (non-Javadoc)
+   * 
+   * @see java.lang.Object#equals(java.lang.Object)
+   */
+  @Override
+  public boolean equals(Object obj) {
+    if (this == obj)
+      return true;
+    if (obj == null)
+      return false;
+    if (getClass() != obj.getClass())
+      return false;
+    Client other = (Client) obj;
+    if (address == null) {
+      if (other.address != null)
+        return false;
+    } else if (!address.equals(other.address))
+      return false;
+    if (age != other.age)
+      return false;
+    if (bookings == null) {
+      if (other.bookings != null)
+        return false;
+    } else if (!bookings.equals(other.bookings))
+      return false;
+    if (creditCardExpiry == null) {
+      if (other.creditCardExpiry != null)
+        return false;
+    } else if (!creditCardExpiry.equals(other.creditCardExpiry))
+      return false;
+    if (creditCardNumber != other.creditCardNumber)
+      return false;
+    return true;
+  }
+
+}

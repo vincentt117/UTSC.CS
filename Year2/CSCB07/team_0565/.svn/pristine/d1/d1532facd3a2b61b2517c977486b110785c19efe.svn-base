@@ -1,0 +1,71 @@
+package backend;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.PrintWriter;
+import java.util.ArrayList;
+
+public abstract class OldDatabase {
+
+  /**
+   * Given a file name corresponding to a file with each line representing data
+   * for an object in the database and the parameters and separated by ; returns
+   * an <code>ArrayList</code> with that given data
+   * 
+   * modified reading files code from: https://www.caveofprogramming.com/java/java-file-reading-and-writing-files-in-java.html
+   * 
+   * @param filename
+   *          The file to be read
+   * @return an arraylist of strings of each line in the file
+   */
+  public ArrayList<String> readFile(String filename) {
+    if(filename.substring(-5, -1) != ".txt"){
+      // consider throwing an error here.
+    }
+    try {
+      ArrayList<String> fileContent = new ArrayList<>();
+      FileReader fileReader = new FileReader(filename);
+      BufferedReader bufferedReader = new BufferedReader(fileReader);
+      String line;
+      while ((line = bufferedReader.readLine()) != null) {
+        fileContent.add(line);
+      }
+      bufferedReader.close();
+      fileReader.close();
+      return fileContent;
+
+    } catch (Exception ex) {
+      return new ArrayList<String>();
+    }
+  }
+
+  /**
+   * Given a file name, writes to that file all of the data currently stored in
+   * the database in the format each object is defined on a different line and
+   * the current variables in the class are separated by ;
+   * modified writing files from: https://www.caveofprogramming.com/java/java-file-reading-and-writing-files-in-java.html
+   * 
+   * @param filename
+   *          The file to be written to
+   */
+  public void writeFile(String filename) {
+    try {
+      PrintWriter writer = new PrintWriter(filename, "UTF-8");
+      ArrayList<String> data = getAllData();
+      for (String d : data) {
+        writer.println(d);
+      }
+      writer.close();
+    } catch (Exception e) {
+    }
+  }
+
+  /**
+   * Returns an returns an <code>ArrayList </code> of strings where each item in
+   * the list is an object and the variables of the object are separated by ;
+   * 
+   * @return
+   */
+  public abstract ArrayList<String> getAllData();
+
+}
