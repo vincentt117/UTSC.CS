@@ -1,0 +1,40 @@
+Autotested Results for E2 submitted by Vincent Teng (tengvinc)
+Generated at 2016-11-14T14:20:47
+
+Summary of Results: 29 out of 29 tests successfully passed
+--
+
+Tests for e2tester.GraphTest (29/29 passed)
+--
+
+1) a Graph with several Nodes                                                         .. ok!
+2) the addEdge(int id1, int id2) method                                               .. ok!
+3) the areAdjacent(Node<T> node1, Node<T> node2) method                               .. ok!
+4) the areAdjacent(Node<T> node1, Node<T> node2) method                               .. ok!
+5) the Graph constructor                                                              .. ok!
+6) the getNumEdges() method                                                           .. ok!
+7) the addEdge(int id1, int id2) method                                               .. ok!
+8) the addEdge(Node<T> node1, Node<T> node2) method                                   .. ok!
+9) the addEdge(int id1, int id2) method                                               .. ok!
+10) the getNode(int id) method                                                         .. ok!
+11) the getNumNodes() method                                                           .. ok!
+12) the areAdjacent(int id1, int id2) method                                           .. ok!
+13) the areAdjacent(int id1, int id2) method                                           .. ok!
+14) the addEdge(Node<T> node1, Node<T> node2) method                                   .. ok!
+15) the toString() method                                                              .. ok!
+16) the areAdjacent(int id1, int id2) method                                           .. ok!
+17) the getNeighbours(Node<T> node) method                                             .. ok!
+18) the areAdjacent(Node<T> node1, Node<T> node2) method                               .. ok!
+19) the getNode(int id) method                                                         .. ok!
+20) the addEdge(int id1, int id2) method                                               .. ok!
+21) the addNode(int id, T value) method                                                .. ok!
+22) a Graph with a single Node                                                         .. ok!
+23) a Graph with multiple Nodes                                                        .. ok!
+24) a Graph with no Nodes                                                              .. ok!
+25) the addEdge(Node<T> node1, Node<T> node2) method                                   .. ok!
+26) the areAdjacent(int id1, int id2) method                                           .. ok!
+27) the addEdge(Node<T> node1, Node<T> node2) method                                   .. ok!
+28) the areAdjacent(Node<T> node1, Node<T> node2) method                               .. ok!
+29) the getNodes() method                                                              .. ok!
+
+

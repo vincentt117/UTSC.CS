@@ -1,0 +1,31 @@
+Autotested Results for E2 submitted by Vincent Teng (tengvinc)
+Generated at 2016-11-12T21:38:25
+
+Summary of Results: 1 out of 2 tests successfully passed
+--
+
+Tests for testdircontent.TestContentStyle (1/2 passed)
+--
+
+1) Testing the contents of the submission directory.                                  .. ok!
+2) Result of checkstyle.                                                              .. failed
+.. because False is not true : Checkstyle fails. (details below):
+
+    Traceback (most recent call last):
+    
+      File "/usr/lib/python3.4/unittest/case.py", line 58, in testPartExecutor
+        yield
+    
+      File "/usr/lib/python3.4/unittest/case.py", line 577, in run
+        testMethod()
+    
+      File "/home/anya/courses/cscb07fall2016/exercises/e2/marking/submissions/tengvinc/testdircontent.py", line 22, in test_checkstyle
+        'Checkstyle fails.')
+    
+      File "/usr/lib/python3.4/unittest/case.py", line 654, in assertTrue
+        raise self.failureException(msg)
+    
+    AssertionError: False is not true : Checkstyle fails.
+
+
+

@@ -1,0 +1,44 @@
+package cs.b07.cscb07courseproject;
+
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.widget.Button;
+import android.widget.EditText;
+import android.content.Intent;
+import android.view.View;
+
+public class ClientLogin extends AppCompatActivity implements View.OnClickListener{
+
+    Button bLogin;
+    EditText et_email, et_password;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.login);
+
+        et_email = (EditText) findViewById(R.id.email);
+        et_password = (EditText) findViewById(R.id.password);
+        bLogin = (Button) findViewById(R.id.login_button);
+        bLogin.setOnClickListener(this);
+    }
+
+    @Override
+    public void onClick(View v) {
+        switch(v.getId()){
+            case R.id.login_button:
+                //gets user input
+                String email = et_email.getText().toString();
+                String password = et_password.getText().toString();
+                //send to client home page
+                Intent intentLogin = new Intent(this, ClientHomepage.class);
+                //check if the email exists in our database
+                //if it does send it to the client home page
+            case R.id.register_button:
+                //send to register page
+                Intent intentRegister = new Intent(this, ClientRegistration.class);
+                startActivity(intentRegister);
+        }
+    }
+}
+

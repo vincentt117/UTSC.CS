@@ -1,0 +1,761 @@
+Autotested Results for a1 submitted by Vincent Teng (tengvinc)
+Generated at 2016-11-01T21:59:53
+
+Summary of Results: 302 out of 321 tests successfully passed
+--
+
+Tests for tests.WallTest (24/24 passed)
+--
+
+1) getColumn() not changing the return value of getRow()                              .. ok!
+2) the method updateCoordinates()                                                     .. ok!
+3) getRow() not changing the return value of getColumn()                              .. ok!
+4) toString() returning the correct value                                             .. ok!
+5) that Wall inherits Sprite                                                          .. ok!
+6) the method getRow()                                                                .. ok!
+7) the method getColumn()                                                             .. ok!
+8) the method equals()                                                                .. ok!
+9) the method hashCode()                                                              .. ok!
+10) getSymbol() returning the correct value                                            .. ok!
+11) getColumn() not changing the return value of getSymbol()                           .. ok!
+12) the variable symbol exists and is declared correctly                               .. ok!
+13) the variable column exists and is declared correctly                               .. ok!
+14) getRow() not changing the return value of getSymbol()                              .. ok!
+15) getRow() returning the correct value with multiple Sprites                         .. ok!
+16) the variable row exists and is declared correctly                                  .. ok!
+17) the method updateCoordinates()                                                     .. ok!
+18) getSymbol() not changing the return value of getColumn()                           .. ok!
+19) getSymbol() not changing the return value of getRow()                              .. ok!
+20) the method getSymbol()                                                             .. ok!
+21) getColumn() returning the correct value                                            .. ok!
+22) the constructor exists and is declared correctly                                   .. ok!
+23) getRow() returning the correct value                                               .. ok!
+24) getColumn() returning the correct value with multiple Sprites                      .. ok!
+
+
+Tests for tests.VacuumGameTest (72/74 passed)
+--
+
+1) VacuumGame                                                                         .. ok!
+2) VacuumGame constructor                                                             .. ok!
+3) getNumRows with 7 rows                                                             .. ok!
+4) move left on wall                                                                  .. ok!
+5) getWinner gives correct results                                                    .. ok!
+6) getVacuumOne non-null                                                              .. ok!
+7) move right twice onto wall                                                         .. ok!
+8) getNumCols with 24 cols                                                            .. ok!
+9) move down twice on clean                                                           .. ok!
+10) VacuumGame getSprite signature                                                     .. ok!
+11) getSprite with wall                                                                .. ok!
+12) move left twice onto vacuum                                                        .. ok!
+13) getSprite with vacuum                                                              .. ok!
+14) VacuumGame getWinner signature                                                     .. ok!
+15) non-null grid                                                                      .. ok!
+16) getWinner gives correct results                                                    .. ok!
+17) variable grid                                                                      .. ok!
+18) getWinner gives correct results                                                    .. ok!
+19) clean gives correct results                                                        .. ok!
+20) move down                                                                          .. ok!
+21) getWinner gives correct results                                                    .. ok!
+22) getNumRows with 16 rows                                                            .. ok!
+23) VacuumGame move signature                                                          .. ok!
+24) VacuumGame getNumColumns signature                                                 .. ok!
+25) move right twice onto vacuum                                                       .. ok!
+26) getWinner gives correct results                                                    .. ok!
+27) getSprite with dustball                                                            .. ok!
+28) move down on wall                                                                  .. ok!
+29) variable dusts                                                                     .. ok!
+30) getNumCols with 7 cols                                                             .. ok!
+31) move left on other vacuum                                                          .. ok!
+32) getSprite with dirt                                                                .. ok!
+33) move left                                                                          .. ok!
+34) variable random                                                                    .. ok!
+35) clean gives correct results                                                        .. ok!
+36) move left twice onto wall                                                          .. ok!
+37) move right on wall                                                                 .. ok!
+38) VacuumGame gameOver signature                                                      .. ok!
+39) VacuumGame getGrid signature                                                       .. ok!
+40) move down twice onto vacuum                                                        .. ok!
+41) move up twice on clean                                                             .. ok!
+42) getVacuumTwo non-null                                                              .. ok!
+43) getWinner gives correct results                                                    .. ok!
+44) move up on wall                                                                    .. ok!
+45) move down twice onto wall                                                          .. ok!
+46) move right                                                                         .. ok!
+47) getSprite with clean                                                               .. ok!
+48) move up on other vacuum                                                            .. ok!
+49) gameOver gives correct results                                                     .. ok!
+50) move up twice onto vacuum                                                          .. ok!
+51) variable dustBalls                                                                 .. ok!
+52) VacuumGame getVacuumTwo signature                                                  .. ok!
+53) VacuumGame getNumRows                                                              .. ok!
+54) getNumCols with 7 cols                                                             .. ok!
+55) getNumRows with 12 rows                                                            .. ok!
+56) getWinner gives correct results                                                    .. ok!
+57) getNumCols with 36 cols                                                            .. ok!
+58) getSprite with vacuum                                                              .. ok!
+59) move right twice on clean                                                          .. ok!
+60) getWinner gives correct results                                                    .. ok!
+61) move right on other vacuum                                                         .. ok!
+62) getWinner gives correct results                                                    .. ok!
+63) move left twice on clean                                                           .. ok!
+64) getWinner gives correct results                                                    .. ok!
+65) move up                                                                            .. ok!
+66) move up twice onto wall                                                            .. ok!
+67) VacuumGame getVacuumOne signature                                                  .. ok!
+68) move down on other vacuum                                                          .. ok!
+69) getSprite with clean                                                               .. ok!
+70) getNumRows with 6 rows                                                             .. ok!
+71) variables vaccuum1 and vacuum2                                                     .. ok!
+72) getWinner gives correct results                                                    .. ok!
+73) clean gives correct results                                                        .. failed
+.. because gameOver() should return false, vacuum's capacity has been reached and not have not cleaned dirt (details below):
+
+    java.lang.AssertionError: gameOver() should return false, vacuum's capacity has been reached and not have not cleaned dirt
+    	at org.junit.Assert.fail(Assert.java:88)
+    	at org.junit.Assert.assertTrue(Assert.java:41)
+    	at org.junit.Assert.assertFalse(Assert.java:64)
+    	at tests.VacuumGameTest.testCleanToWinVacuumOne(VacuumGameTest.java:1310)
+    	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    	at java.lang.reflect.Method.invoke(Method.java:498)
+    	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+    	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+    	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+    	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+    	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+    	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+    	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+    	at java.lang.Thread.run(Thread.java:745)
+
+74) clean gives correct results                                                        .. failed
+.. because gameOver() should return false, vacuum's capacity has been reached and not have not cleaned dirt (details below):
+
+    java.lang.AssertionError: gameOver() should return false, vacuum's capacity has been reached and not have not cleaned dirt
+    	at org.junit.Assert.fail(Assert.java:88)
+    	at org.junit.Assert.assertTrue(Assert.java:41)
+    	at org.junit.Assert.assertFalse(Assert.java:64)
+    	at tests.VacuumGameTest.testCleanToWinVacuumTwo(VacuumGameTest.java:1338)
+    	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    	at java.lang.reflect.Method.invoke(Method.java:498)
+    	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+    	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+    	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+    	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+    	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+    	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+    	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+    	at java.lang.Thread.run(Thread.java:745)
+
+
+
+Tests for tests.DirtTest (5/5 passed)
+--
+
+1) hashCode is implemented                                                            .. ok!
+2) getValue is implemented                                                            .. ok!
+3) Dirt declaration                                                                   .. ok!
+4) Dirt variable                                                                      .. ok!
+5) equals is implemented                                                              .. ok!
+
+
+Tests for tests.DustTest (24/25 passed)
+--
+
+1) getColumn() not changing the return value of getRow()                              .. ok!
+2) the variable symbol exists and is declared correctly                               .. ok!
+3) getColumn() returning the correct value with multiple Sprites                      .. ok!
+4) getRow() not changing the return value of getSymbol()                              .. ok!
+5) the variable column exists and is declared correctly                               .. ok!
+6) getRow() returning the correct value                                               .. ok!
+7) that Dust inherits Dirt                                                            .. ok!
+8) the method getSymbol()                                                             .. ok!
+9) getSymbol() returning the correct value                                            .. ok!
+10) getSymbol() not changing the return value of getColumn()                           .. ok!
+11) the method updateCoordinates()                                                     .. ok!
+12) the method equals()                                                                .. ok!
+13) getSymbol() not changing the return value of getRow()                              .. ok!
+14) the method getRow()                                                                .. ok!
+15) the constructor exists and is declared correctly                                   .. ok!
+16) the method updateCoordinates()                                                     .. ok!
+17) the variable row exists and is declared correctly                                  .. ok!
+18) the method hashCode()                                                              .. ok!
+19) getColumn() returning the correct value                                            .. ok!
+20) getRow() not changing the return value of getColumn()                              .. ok!
+21) getColumn() not changing the return value of getSymbol()                           .. ok!
+22) getRow() returning the correct value with multiple Sprites                         .. ok!
+23) the method getColumn()                                                             .. ok!
+24) toString() returning the correct value                                             .. ok!
+25) getValue is correct                                                                .. failed
+.. because Testing if getValue correctly returns the value. expected:<0> but was:<4> (details below):
+
+    java.lang.AssertionError: Testing if getValue correctly returns the value. expected:<0> but was:<4>
+    	at org.junit.Assert.fail(Assert.java:88)
+    	at org.junit.Assert.failNotEquals(Assert.java:834)
+    	at org.junit.Assert.assertEquals(Assert.java:645)
+    	at tests.DustTest.testGetValue(DustTest.java:42)
+    	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    	at java.lang.reflect.Method.invoke(Method.java:498)
+    	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+    	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+    	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+    	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+    	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+    	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+    	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+    	at java.lang.Thread.run(Thread.java:745)
+
+
+
+Tests for tests.DustBallTest (27/28 passed)
+--
+
+1) getColumn() not changing the return value of getSymbol()                           .. ok!
+2) moveTo dustball moves correctly                                                    .. ok!
+3) the variable symbol exists and is declared correctly                               .. ok!
+4) getSymbol() returning the correct value                                            .. ok!
+5) getRow() returning the correct value                                               .. ok!
+6) the variable row exists and is declared correctly                                  .. ok!
+7) the method updateCoordinates()                                                     .. ok!
+8) getRow() not changing the return value of getSymbol()                              .. ok!
+9) the method updateCoordinates()                                                     .. ok!
+10) getColumn() returning the correct value                                            .. ok!
+11) the method getSymbol()                                                             .. ok!
+12) the method getRow()                                                                .. ok!
+13) the constructor exists and is declared correctly                                   .. ok!
+14) the method hashCode()                                                              .. ok!
+15) getRow() returning the correct value with multiple Sprites                         .. ok!
+16) moveTo signature                                                                   .. ok!
+17) the variable column exists and is declared correctly                               .. ok!
+18) the method equals()                                                                .. ok!
+19) getColumn() returning the correct value with multiple Sprites                      .. ok!
+20) the method getColumn()                                                             .. ok!
+21) toString() returning the correct value                                             .. ok!
+22) moveTo dustball moves correctly                                                    .. ok!
+23) getSymbol() not changing the return value of getColumn()                           .. ok!
+24) getSymbol() not changing the return value of getRow()                              .. ok!
+25) getColumn() not changing the return value of getRow()                              .. ok!
+26) that DustBall inherits Sprite                                                      .. ok!
+27) getRow() not changing the return value of getColumn()                              .. ok!
+28) getValue is correct                                                                .. failed
+.. because Testing if getValue correctly returns the value. expected:<0> but was:<2> (details below):
+
+    java.lang.AssertionError: Testing if getValue correctly returns the value. expected:<0> but was:<2>
+    	at org.junit.Assert.fail(Assert.java:88)
+    	at org.junit.Assert.failNotEquals(Assert.java:834)
+    	at org.junit.Assert.assertEquals(Assert.java:645)
+    	at tests.DustBallTest.testGetValue(DustBallTest.java:43)
+    	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    	at java.lang.reflect.Method.invoke(Method.java:498)
+    	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+    	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+    	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+    	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+    	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+    	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+    	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+    	at java.lang.Thread.run(Thread.java:745)
+
+
+
+Tests for tests.GridTest (7/7 passed)
+--
+
+1) Grid declaration                                                                   .. ok!
+2) Grid getNumColumns signature                                                       .. ok!
+3) Grid equals signature                                                              .. ok!
+4) Grid toString signature                                                            .. ok!
+5) Grid setCell signature                                                             .. ok!
+6) Grid getCell signature                                                             .. ok!
+7) Grid getNumRows signature                                                          .. ok!
+
+
+Tests for tests.SpriteTest (10/10 passed)
+--
+
+1) the method getSymbol()                                                             .. ok!
+2) the method getRow()                                                                .. ok!
+3) the method hashCode()                                                              .. ok!
+4) the variable column exists and is declared correctly                               .. ok!
+5) the constructor exists and is declared correctly                                   .. ok!
+6) the method getColumn()                                                             .. ok!
+7) the method updateCoordinates()                                                     .. ok!
+8) the variable symbol exists and is declared correctly                               .. ok!
+9) the method equals()                                                                .. ok!
+10) the variable row exists and is declared correctly                                  .. ok!
+
+
+Tests for tests.DumpsterTest (24/24 passed)
+--
+
+1) getColumn() returning the correct value                                            .. ok!
+2) getColumn() returning the correct value with multiple Sprites                      .. ok!
+3) getRow() not changing the return value of getColumn()                              .. ok!
+4) getSymbol() returning the correct value                                            .. ok!
+5) the method getSymbol()                                                             .. ok!
+6) the method updateCoordinates()                                                     .. ok!
+7) the method getColumn()                                                             .. ok!
+8) the variable column exists and is declared correctly                               .. ok!
+9) getRow() returning the correct value with multiple Sprites                         .. ok!
+10) the variable symbol exists and is declared correctly                               .. ok!
+11) the variable row exists and is declared correctly                                  .. ok!
+12) getRow() returning the correct value                                               .. ok!
+13) the method getRow()                                                                .. ok!
+14) getColumn() not changing the return value of getRow()                              .. ok!
+15) the constructor exists and is declared correctly                                   .. ok!
+16) getColumn() not changing the return value of getSymbol()                           .. ok!
+17) getRow() not changing the return value of getSymbol()                              .. ok!
+18) the method hashCode()                                                              .. ok!
+19) that Dumpster inherits Sprite                                                      .. ok!
+20) the method updateCoordinates()                                                     .. ok!
+21) toString() returning the correct value                                             .. ok!
+22) the method equals()                                                                .. ok!
+23) getSymbol() not changing the return value of getRow()                              .. ok!
+24) getSymbol() not changing the return value of getColumn()                           .. ok!
+
+
+Tests for tests.CleanHallwayTest (24/24 passed)
+--
+
+1) the method updateCoordinates()                                                     .. ok!
+2) getRow() not changing the return value of getSymbol()                              .. ok!
+3) getRow() not changing the return value of getColumn()                              .. ok!
+4) toString() returning the correct value                                             .. ok!
+5) the constructor exists and is declared correctly                                   .. ok!
+6) getColumn() not changing the return value of getRow()                              .. ok!
+7) the method getSymbol()                                                             .. ok!
+8) the method updateCoordinates()                                                     .. ok!
+9) getSymbol() returning the correct value                                            .. ok!
+10) the method hashCode()                                                              .. ok!
+11) the variable symbol exists and is declared correctly                               .. ok!
+12) the variable column exists and is declared correctly                               .. ok!
+13) the method equals()                                                                .. ok!
+14) the variable row exists and is declared correctly                                  .. ok!
+15) getSymbol() not changing the return value of getRow()                              .. ok!
+16) getColumn() returning the correct value                                            .. ok!
+17) getRow() returning the correct value                                               .. ok!
+18) the method getColumn()                                                             .. ok!
+19) getColumn() not changing the return value of getSymbol()                           .. ok!
+20) that CleanHallway inherits Sprite                                                  .. ok!
+21) the method getRow()                                                                .. ok!
+22) getColumn() returning the correct value with multiple Sprites                      .. ok!
+23) getSymbol() not changing the return value of getColumn()                           .. ok!
+24) getRow() returning the correct value with multiple Sprites                         .. ok!
+
+
+Tests for tests.ListGridTest (23/34 passed)
+--
+
+1) ListGrid declaration                                                               .. ok!
+2) ListGrid getNumRows                                                                .. ok!
+3) ListGrid does not override equals                                                  .. ok!
+4) ListGrid equals with different dimensions                                          .. ok!
+5) ListGrid getNumRows signature                                                      .. ok!
+6) ListGrid toString with all sprites                                                 .. ok!
+7) ListGrid toString with all walls                                                   .. ok!
+8) ListGrid getNumRows                                                                .. ok!
+9) ListGrid variable                                                                  .. ok!
+10) ListGrid does not override equals                                                  .. ok!
+11) ListGrid getNumColumns                                                             .. ok!
+12) ListGrid equals self                                                               .. ok!
+13) ListGrid getCell signature                                                         .. ok!
+14) ListGrid constructor                                                               .. ok!
+15) ListGrid equals with different swapped sprites                                     .. ok!
+16) ListGrid equals with different dimensions                                          .. ok!
+17) ListGrid equals with different sprites                                             .. ok!
+18) ListGrid setCell vacant                                                            .. ok!
+19) ListGrid getNumColumns                                                             .. ok!
+20) ListGrid getNumRows                                                                .. ok!
+21) ListGrid equals with different dimensions                                          .. ok!
+22) ListGrid setCell signature                                                         .. ok!
+23) ListGrid getNumColumns signature                                                   .. ok!
+24) ListGrid setCell over non-vacant cell                                              .. failed
+.. because Index: 3, Size: 0 (details below):
+
+    java.lang.IndexOutOfBoundsException: Index: 3, Size: 0
+    	at java.util.ArrayList.rangeCheckForAdd(ArrayList.java:661)
+    	at java.util.ArrayList.add(ArrayList.java:473)
+    	at game.ListGrid.setCell(ListGrid.java:40)
+    	at tests.ListGridTest.testSetCellOverwriteCellsVacantPlayerOne(ListGridTest.java:306)
+    	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    	at java.lang.reflect.Method.invoke(Method.java:498)
+    	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+    	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+    	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+    	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+    	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+    	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+    	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+    	at java.lang.Thread.run(Thread.java:745)
+
+25) ListGrid setCell V2                                                                .. failed
+.. because Index: 3, Size: 0 (details below):
+
+    java.lang.IndexOutOfBoundsException: Index: 3, Size: 0
+    	at java.util.ArrayList.rangeCheckForAdd(ArrayList.java:661)
+    	at java.util.ArrayList.add(ArrayList.java:473)
+    	at game.ListGrid.setCell(ListGrid.java:40)
+    	at tests.ListGridTest.testSetCellMultipleCellsVacantPlayerOne(ListGridTest.java:282)
+    	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    	at java.lang.reflect.Method.invoke(Method.java:498)
+    	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+    	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+    	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+    	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+    	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+    	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+    	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+    	at java.lang.Thread.run(Thread.java:745)
+
+26) ListGrid setCell V2                                                                .. failed
+.. because Index: 2, Size: 0 (details below):
+
+    java.lang.IndexOutOfBoundsException: Index: 2, Size: 0
+    	at java.util.ArrayList.rangeCheckForAdd(ArrayList.java:661)
+    	at java.util.ArrayList.add(ArrayList.java:473)
+    	at game.ListGrid.setCell(ListGrid.java:40)
+    	at tests.ListGridTest.testSetCellVacuumTwo(ListGridTest.java:245)
+    	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    	at java.lang.reflect.Method.invoke(Method.java:498)
+    	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+    	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+    	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+    	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+    	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+    	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+    	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+    	at java.lang.Thread.run(Thread.java:745)
+
+27) ListGrid setCell visited                                                           .. failed
+.. because Index: 2, Size: 0 (details below):
+
+    java.lang.IndexOutOfBoundsException: Index: 2, Size: 0
+    	at java.util.ArrayList.rangeCheckForAdd(ArrayList.java:661)
+    	at java.util.ArrayList.add(ArrayList.java:473)
+    	at game.ListGrid.setCell(ListGrid.java:40)
+    	at tests.ListGridTest.testSetCellVisited(ListGridTest.java:173)
+    	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    	at java.lang.reflect.Method.invoke(Method.java:498)
+    	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+    	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+    	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+    	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+    	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+    	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+    	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+    	at java.lang.Thread.run(Thread.java:745)
+
+28) ListGrid setCell walls                                                             .. failed
+.. because Index: 2, Size: 0 (details below):
+
+    java.lang.IndexOutOfBoundsException: Index: 2, Size: 0
+    	at java.util.ArrayList.rangeCheckForAdd(ArrayList.java:661)
+    	at java.util.ArrayList.add(ArrayList.java:473)
+    	at game.ListGrid.setCell(ListGrid.java:40)
+    	at tests.ListGridTest.testSetCellMultipleCellsWalls(ListGridTest.java:259)
+    	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    	at java.lang.reflect.Method.invoke(Method.java:498)
+    	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+    	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+    	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+    	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+    	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+    	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+    	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+    	at java.lang.Thread.run(Thread.java:745)
+
+29) ListGrid equals same                                                               .. failed
+.. because An ListGrid should be equal to an identical ListGrid (details below):
+
+    java.lang.AssertionError: An ListGrid should be equal to an identical ListGrid
+    	at org.junit.Assert.fail(Assert.java:88)
+    	at org.junit.Assert.assertTrue(Assert.java:41)
+    	at tests.ListGridTest.testEqualsIdentical(ListGridTest.java:421)
+    	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    	at java.lang.reflect.Method.invoke(Method.java:498)
+    	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+    	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+    	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+    	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+    	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+    	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+    	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+    	at java.lang.Thread.run(Thread.java:745)
+
+30) ListGrid setCell wall                                                              .. failed
+.. because Index: 4, Size: 0 (details below):
+
+    java.lang.IndexOutOfBoundsException: Index: 4, Size: 0
+    	at java.util.ArrayList.rangeCheckForAdd(ArrayList.java:661)
+    	at java.util.ArrayList.add(ArrayList.java:473)
+    	at game.ListGrid.setCell(ListGrid.java:40)
+    	at tests.ListGridTest.testSetCellWall(ListGridTest.java:187)
+    	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    	at java.lang.reflect.Method.invoke(Method.java:498)
+    	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+    	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+    	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+    	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+    	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+    	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+    	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+    	at java.lang.Thread.run(Thread.java:745)
+
+31) ListGrid equals with similar dimensions                                            .. failed
+.. because An ListGrid should be equal to an identical ListGrid (details below):
+
+    java.lang.AssertionError: An ListGrid should be equal to an identical ListGrid
+    	at org.junit.Assert.fail(Assert.java:88)
+    	at org.junit.Assert.assertTrue(Assert.java:41)
+    	at tests.ListGridTest.testEqualsSimilarSprites(ListGridTest.java:566)
+    	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    	at java.lang.reflect.Method.invoke(Method.java:498)
+    	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+    	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+    	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+    	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+    	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+    	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+    	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+    	at java.lang.Thread.run(Thread.java:745)
+
+32) ListGrid setCell V1                                                                .. failed
+.. because Index: 3, Size: 0 (details below):
+
+    java.lang.IndexOutOfBoundsException: Index: 3, Size: 0
+    	at java.util.ArrayList.rangeCheckForAdd(ArrayList.java:661)
+    	at java.util.ArrayList.add(ArrayList.java:473)
+    	at game.ListGrid.setCell(ListGrid.java:40)
+    	at tests.ListGridTest.testSetCellVacuumOne(ListGridTest.java:230)
+    	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    	at java.lang.reflect.Method.invoke(Method.java:498)
+    	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+    	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+    	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+    	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+    	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+    	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+    	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+    	at java.lang.Thread.run(Thread.java:745)
+
+33) ListGrid setCell dustball                                                          .. failed
+.. because Index: 5, Size: 0 (details below):
+
+    java.lang.IndexOutOfBoundsException: Index: 5, Size: 0
+    	at java.util.ArrayList.rangeCheckForAdd(ArrayList.java:661)
+    	at java.util.ArrayList.add(ArrayList.java:473)
+    	at game.ListGrid.setCell(ListGrid.java:40)
+    	at tests.ListGridTest.testSetCellDustBall(ListGridTest.java:215)
+    	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    	at java.lang.reflect.Method.invoke(Method.java:498)
+    	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+    	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+    	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+    	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+    	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+    	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+    	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+    	at java.lang.Thread.run(Thread.java:745)
+
+34) ListGrid setCell dirt                                                              .. failed
+.. because Index: 7, Size: 0 (details below):
+
+    java.lang.IndexOutOfBoundsException: Index: 7, Size: 0
+    	at java.util.ArrayList.rangeCheckForAdd(ArrayList.java:661)
+    	at java.util.ArrayList.add(ArrayList.java:473)
+    	at game.ListGrid.setCell(ListGrid.java:40)
+    	at tests.ListGridTest.testSetCellDust(ListGridTest.java:201)
+    	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    	at java.lang.reflect.Method.invoke(Method.java:498)
+    	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+    	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+    	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+    	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+    	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+    	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+    	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+    	at java.lang.Thread.run(Thread.java:745)
+
+
+
+Tests for tests.MapGridTest (32/34 passed)
+--
+
+1) MapGrid setCell V1                                                                 .. ok!
+2) MapGrid setCell visited                                                            .. ok!
+3) MapGrid setCell wall                                                               .. ok!
+4) MapGrid does not override equals                                                   .. ok!
+5) MapGrid variable                                                                   .. ok!
+6) MapGrid setCell dirt                                                               .. ok!
+7) MapGrid getNumRows                                                                 .. ok!
+8) MapGrid getNumRows                                                                 .. ok!
+9) MapGrid toString with all sprites                                                  .. ok!
+10) MapGrid setCell V2                                                                 .. ok!
+11) MapGrid getNumRows                                                                 .. ok!
+12) MapGrid toString with all walls                                                    .. ok!
+13) MapGrid setCell dustball                                                           .. ok!
+14) MapGrid getNumColumns                                                              .. ok!
+15) MapGrid equals with different swapped sprites                                      .. ok!
+16) MapGrid getNumColumns                                                              .. ok!
+17) MapGrid getCell signature                                                          .. ok!
+18) MapGrid equals with different dimensions                                           .. ok!
+19) MapGrid getNumColumns signature                                                    .. ok!
+20) MapGrid constructor                                                                .. ok!
+21) MapGrid getNumRows signature                                                       .. ok!
+22) MapGrid setCell over non-vacant cell                                               .. ok!
+23) MapGrid equals with different dimensions                                           .. ok!
+24) MapGrid setCell walls                                                              .. ok!
+25) MapGrid equals with different sprites                                              .. ok!
+26) MapGrid setCell signature                                                          .. ok!
+27) MapGrid equals self                                                                .. ok!
+28) MapGrid extends Grid                                                               .. ok!
+29) MapGrid does not override equals                                                   .. ok!
+30) MapGrid setCell vacant                                                             .. ok!
+31) MapGrid setCell V2                                                                 .. ok!
+32) MapGrid equals with different dimensions                                           .. ok!
+33) MapGrid equals same                                                                .. failed
+.. because An MapGrid should be equal to an identical MapGrid (details below):
+
+    java.lang.AssertionError: An MapGrid should be equal to an identical MapGrid
+    	at org.junit.Assert.fail(Assert.java:88)
+    	at org.junit.Assert.assertTrue(Assert.java:41)
+    	at tests.MapGridTest.testEqualsIdentical(MapGridTest.java:424)
+    	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    	at java.lang.reflect.Method.invoke(Method.java:498)
+    	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+    	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+    	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+    	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+    	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+    	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+    	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+    	at java.lang.Thread.run(Thread.java:745)
+
+34) MapGrid equals with similar dimensions                                             .. failed
+.. because An MapGrid should be equal to an identical MapGrid (details below):
+
+    java.lang.AssertionError: An MapGrid should be equal to an identical MapGrid
+    	at org.junit.Assert.fail(Assert.java:88)
+    	at org.junit.Assert.assertTrue(Assert.java:41)
+    	at tests.MapGridTest.testEqualsSimilarSprites(MapGridTest.java:569)
+    	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    	at java.lang.reflect.Method.invoke(Method.java:498)
+    	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+    	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+    	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+    	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+    	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+    	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+    	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+    	at java.lang.Thread.run(Thread.java:745)
+
+
+
+Tests for tests.VacuumTest (30/32 passed)
+--
+
+1) getRow() returning the correct value                                               .. ok!
+2) getColumn() returning the correct value                                            .. ok!
+3) getRow() not changing the return value of getColumn()                              .. ok!
+4) the method updateCoordinates()                                                     .. ok!
+5) getColumn() not changing the return value of getRow()                              .. ok!
+6) moveTo has correct signature                                                       .. ok!
+7) Vacuum correctly inherits from Sprite                                              .. ok!
+8) getRow() returning the correct value with multiple Sprites                         .. ok!
+9) setUnder() sets the under sprite                                                   .. ok!
+10) the variable symbol exists and is declared correctly                               .. ok!
+11) the method getRow()                                                                .. ok!
+12) the variable row exists and is declared correctly                                  .. ok!
+13) moveTo modifies location correctly                                                 .. ok!
+14) getScore returns correct score                                                     .. ok!
+15) getColumn() returning the correct value with multiple Sprites                      .. ok!
+16) the variable column exists and is declared correctly                               .. ok!
+17) the method getSymbol()                                                             .. ok!
+18) getColumn() not changing the return value of getSymbol()                           .. ok!
+19) moveTo modifies location of correct vacuum                                         .. ok!
+20) toString() returning the correct value                                             .. ok!
+21) getSymbol() not changing the return value of getRow()                              .. ok!
+22) the constructor exists and is declared correctly                                   .. ok!
+23) getSymbol() not changing the return value of getColumn()                           .. ok!
+24) getScore returns correct value after emptying                                      .. ok!
+25) the method updateCoordinates()                                                     .. ok!
+26) getRow() not changing the return value of getSymbol()                              .. ok!
+27) the method getColumn()                                                             .. ok!
+28) getSymbol() returning the correct value                                            .. ok!
+29) the method equals()                                                                .. ok!
+30) the method hashCode()                                                              .. ok!
+31) clean() modifies vacuum fullness                                                   .. failed
+.. because Tests if clean correctly modifies vacuum's fullness. (details below):
+
+    java.lang.AssertionError: Tests if clean correctly modifies vacuum's fullness.
+    	at org.junit.Assert.fail(Assert.java:88)
+    	at org.junit.Assert.assertTrue(Assert.java:41)
+    	at tests.VacuumTest.testClean(VacuumTest.java:68)
+    	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    	at java.lang.reflect.Method.invoke(Method.java:498)
+    	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+    	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+    	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+    	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+    	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+    	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+    	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+    	at java.lang.Thread.run(Thread.java:745)
+
+32) empty modifies vacuum fullness                                                     .. failed
+.. because Tests if empty & clean correctly modifies vacuum's fullness. (details below):
+
+    java.lang.AssertionError: Tests if empty & clean correctly modifies vacuum's fullness.
+    	at org.junit.Assert.fail(Assert.java:88)
+    	at org.junit.Assert.assertTrue(Assert.java:41)
+    	at tests.VacuumTest.testEmptyAndClean(VacuumTest.java:87)
+    	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    	at java.lang.reflect.Method.invoke(Method.java:498)
+    	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+    	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+    	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+    	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+    	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+    	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+    	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+    	at java.lang.Thread.run(Thread.java:745)
+
+
+

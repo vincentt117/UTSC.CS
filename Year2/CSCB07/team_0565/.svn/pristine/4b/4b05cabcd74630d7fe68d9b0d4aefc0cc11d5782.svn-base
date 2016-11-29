@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Welcome Admin!"
+            android:textSize="75px"
+            android:gravity="center"
+            android:layout_marginTop="50px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Firstname Lastname"
+            android:textSize="50px"
+            android:layout_marginTop="30px"
+            android:layout_marginBottom="50px"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Client's e-mail:"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id = "@+id/et_clients_email"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp"
+            android:inputType="textEmailAddress"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_alignParentBottom="true">
+
+
+            <Button
+                android:id="@+id/b_edit_view_client"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="view/edit client info">
+            </Button>
+
+            <Button
+                android:id="@+id/b_clients_itineraries"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="view client's booked itineraries">
+            </Button>
+
+            <Button
+                android:id="@+id/b_search_book_clients_itineraries"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="search and book itineraries for client">
+            </Button>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Flight no:"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id = "@+id/et_flight_number"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp"
+            android:inputType="text"
+            android:layout_height="wrap_content" />
+
+        <Button
+                android:id="@+id/b_edit_flights"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="edit flight">
+        </Button>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Choose a client file to load:"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id = "@+id/et_client_file"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp"
+            android:inputType="text"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/b_load_client_file"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="load client file" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Choose a flight file to load:"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id = "@+id/et_flight_file"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp"
+            android:inputType="text"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/b_load_flight_file"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="load flight file" />
+
+
+        <Button
+            android:id="@+id/b_logout"
+            android:text="LOG OUT"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+</LinearLayout>
+
+</ScrollView>

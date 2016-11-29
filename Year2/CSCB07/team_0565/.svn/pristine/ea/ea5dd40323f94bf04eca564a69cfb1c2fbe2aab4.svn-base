@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="@string/wt_admin_search_flight"
+        android:textSize="75px"
+        android:gravity="center"
+        android:layout_marginTop="50px"
+        android:layout_marginBottom="150px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/welcome" />
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_alignParentBottom="true">
+
+        <EditText
+            android:id="@+id/et_date"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:hint="@string/date"
+            android:ems="10">
+        </EditText>
+
+       <!-- delete this when wanting to implement a dropdown menu
+            this code will allow you to make the dorm down menu, you must code the functionality
+            in the actual java code here, look for examples at:
+            http://stackoverflow.com/questions/13377361/how-to-create-a-drop-down-list
+
+        <Spinner
+            android:id="@+id/dd_origin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:ems="10"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown" /> -->
+
+        <EditText
+            android:id="@+id/et_origin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:hint="@string/origin"
+            android:ems="10">
+        </EditText>
+
+        <!-- delete this when wanting to implement a dropdown menu
+             this code will allow you to make the dorm down menu, you must code the functionality
+             in the actual java code here, look for examples at:
+             http://stackoverflow.com/questions/13377361/how-to-create-a-drop-down-list
+
+        <Spinner
+            android:id="@+id/dd_destination"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:ems="10"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown" /> -->
+
+        <EditText
+            android:id="@+id/et_destination"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:hint="@string/destination"
+            android:ems="10">
+        </EditText>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/b_admin_search_flights"
+        android:layout_marginTop="50px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_search"/>
+
+</LinearLayout>
