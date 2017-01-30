@@ -1,0 +1,246 @@
+[
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/admin_search_flights.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/src/main/res/layout/admin_search_flights.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/client_registered_finish.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/src/main/res/layout/client_registered_finish.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/client_registration.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/src/main/res/layout/client_registration.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/booking_result.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/src/main/res/layout/booking_result.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow_custom.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/notification_template_custom_big.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/admin_homepage.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/src/main/res/layout/admin_homepage.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/notification_action.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/list_item.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/src/main/res/layout/list_item.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/admin_display_flightdb.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/src/main/res/layout/admin_display_flightdb.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_custom.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/notification_template_icon_group.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/search_flight.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/src/main/res/layout/search_flight.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/admin_edit_flights.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/src/main/res/layout/admin_edit_flights.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/notification_template_lines_media.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/notification_template_lines_media.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/admin_display_searched_flights.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/src/main/res/layout/admin_display_searched_flights.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/client_homepage.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/src/main/res/layout/client_homepage.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/notification_template_media_custom.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/notification_template_media_custom.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/edit_profile_client.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/src/main/res/layout/edit_profile_client.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/login.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/src/main/res/layout/login.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/admin_display_clientdb.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/src/main/res/layout/admin_display_clientdb.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/client_display_searched_flights.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/src/main/res/layout/client_display_searched_flights.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/admin_edit_client_profile.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/src/main/res/layout/admin_edit_client_profile.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/notification_action_tombstone.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_action_bar_title_item.xml"
+    }
+]

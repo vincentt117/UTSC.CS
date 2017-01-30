@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/vincent/Dev/Hackathon/DocTalk/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout-v16/notification_template_custom_big.xml",
+        "source": "/Users/vincent/Dev/Hackathon/DocTalk/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout-v16/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/vincent/Dev/School/CSCB07/team_0565/p3_late/CSCB07CourseProject/app/build/intermediates/res/merged/debug/layout-v16/notification_template_custom_big.xml",
+        "source": "/Users/vincent/Dev/School/CSCB07/team_0565/p3_late/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout-v16/notification_template_custom_big.xml"
+    }
+]

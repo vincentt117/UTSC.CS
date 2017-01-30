@@ -1,0 +1,45 @@
+---------------------------------------------------------------------------------------
+Your tests, when given a correct implementation of search() gave the following results:
+-------------------------
+Compiled!
+JUnit version 4.12
+.
+Time: 0.007
+
+OK (1 test)
+
+---------------------------------------------------------------------------------------
+Your tests, when given a buggy implementation #1 of search() gave the following results:
+-------------------------
+Compiled!
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+---------------------------------------------------------------------------------------
+Your tests, when given a buggy implementation #2 of search() gave the following results:
+-------------------------
+Compiled!
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+---------------------------------------------------------------------------------------
+Your tests, when given a buggy implementation #3 of search() gave the following results:
+-------------------------
+Compiled!
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+---------------------------------------------------------------------------------------
+Your tests, when given a buggy implementation #4 of search() gave the following results:
+-------------------------
+Compiled!
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+---------------------------------------------------------------------------------------
+Your tests, when given a buggy implementation #5 of search() gave the following results:
+-------------------------
+Compiled!
+FAILURES!!!
+Tests run: 1,  Failures: 1
+

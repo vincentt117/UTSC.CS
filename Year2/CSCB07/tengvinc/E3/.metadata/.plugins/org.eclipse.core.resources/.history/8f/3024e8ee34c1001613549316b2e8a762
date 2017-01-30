@@ -1,0 +1,36 @@
+package example;
+
+
+public abstract class Animal {
+  public void eat() {
+public class Bat extends Mammal implements Winged {
+  public int numWings() {
+System.out.println("Yummy!"); }}
+}}
+return 2;
+public abstract class Mammal extends Animal{
+  public void nurse() {
+public abstract class Insect {
+  public int numLegs() {
+System.out.println("Here’s some milk."); }}
+}}
+return 6;
+public interface Winged {
+  public int numWings();
+}
+public abstract class Bird implements Winged {
+  public abstract void nest();
+}
+public class Penguin extends Bird {
+  public int numWings() {
+public class Dragonfly extends Insect implements Winged {
+  public int numWings() {
+return 4; }
+}
+public class Raccoon extends Mammal {
+  private String type;
+  public Raccoon(String type) {
+return 2; }} public void nest() { }
+    System.out.println("I’m nesting.");
+  }
+

@@ -1,7 +1,0 @@
-#Sun Nov 27 14:39:55 EST 2016
-base.0=/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_31b53c9179ba97ce9c5d69c4ff5793afd51371a6
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_44aafddc5ad0925a9f29780016e6465bd77d6297/classes.dex
-base.1=/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_44aafddc5ad0925a9f29780016e6465bd77d6297
-file.0=/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_31b53c9179ba97ce9c5d69c4ff5793afd51371a6/classes.dex

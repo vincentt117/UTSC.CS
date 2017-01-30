@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/tengvinc/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ecf25079a383d2fec418e4ac79b36cc08174edd3">
+        <dex dex="/Users/tengvinc/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_fe3ce95bc8849f296fcbf29ac07dff62368a92f3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tengvinc/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="/Users/tengvinc/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_1258bdbcfa7c106b05cacbfcd2af6181c1b2aaec/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tengvinc/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="/Users/tengvinc/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.1_2c7f1d9dda5d761c7dd331e932bb931316e95bcc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tengvinc/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/tengvinc/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.1_6a48e05f29641eb1f4bd46641e41e6451152de5a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tengvinc/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="/Users/tengvinc/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.1_ea79e4bc1e336e573cc27ed9fd968bebda123de4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tengvinc/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="/Users/tengvinc/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.1_2681cee06da230e9670fa2a76a1e2bdbd7f31628/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tengvinc/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="/Users/tengvinc/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.1_2b22bc9085f2feba3053061d2115b7b560a250b4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tengvinc/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="/Users/tengvinc/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.0.1_9571913a56e67029f92e7a41219c87559b7bde6c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tengvinc/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d90d4bb458efb271adfe2a9226b735a3f0dbc4ef">
+        <dex dex="/Users/tengvinc/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_0da91a8d616f1de8e3cf890e3fb861e895fa343c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tengvinc/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="/Users/tengvinc/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_58f0fabde9951b6a132b0190620c153090b265c1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tengvinc/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="/Users/tengvinc/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.1_1465be92ee03baf7b8dbd9cbcb6b358c06ec552c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tengvinc/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="/Users/tengvinc/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_54c164f7eb132e6a606802fa67320059e3334e88/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tengvinc/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="/Users/tengvinc/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.1_052c76dab91f7378394ab9155b9d3cf396c6282d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tengvinc/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="/Users/tengvinc/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_d8a53b707f02da9d66c6fd41a5a2034e14ebf9cf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tengvinc/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/tengvinc/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_298f5ff0e67fabb94d81575d74e56039b1010254/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tengvinc/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="/Users/tengvinc/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.1_a6ddc82e19658045af3b5c39e34c64417fbf2dac/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tengvinc/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="/Users/tengvinc/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.1_5cdbc161d35fc191e1fd5a144da4752c029b48b4/classes.dex" />
+    </item>
+
+</items>

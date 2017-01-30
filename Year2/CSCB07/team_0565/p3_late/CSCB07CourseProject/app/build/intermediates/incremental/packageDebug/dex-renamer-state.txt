@@ -1,0 +1,7 @@
+#Mon Dec 12 11:00:31 EST 2016
+base.0=/Users/vincent/Dev/School/CSCB07/team_0565/p3_late/CSCB07CourseProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_7c25a2c49c632d96f8c3805dfec714b335e3f393
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/vincent/Dev/School/CSCB07/team_0565/p3_late/CSCB07CourseProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_cb22ea1c615ff1a737e231b864937545b269f170/classes.dex
+base.1=/Users/vincent/Dev/School/CSCB07/team_0565/p3_late/CSCB07CourseProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_cb22ea1c615ff1a737e231b864937545b269f170
+file.0=/Users/vincent/Dev/School/CSCB07/team_0565/p3_late/CSCB07CourseProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_7c25a2c49c632d96f8c3805dfec714b335e3f393/classes.dex

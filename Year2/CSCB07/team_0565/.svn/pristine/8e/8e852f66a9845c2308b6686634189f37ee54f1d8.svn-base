@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86_64,x86"
+    api-level="25"
+    density="560dpi"
+    format="8"
+    plugin-version="2.2.2"
+    timestamp="63013357693252"
+    token="-4266791194589427113"
+    verifier="COMPATIBLE" >
+
+    <task
+        name="javac"
+        duration="401" />
+    <task
+        name="instant-run-dex"
+        duration="21" />
+    <task
+        name="instant-run-transform"
+        duration="39" />
+    <task
+        name="verifier"
+        duration="1" />
+
+    <artifact
+        location="/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/reload-dex/debug/classes.dex"
+        type="RELOAD_DEX" />
+
+    <build
+        timestamp="61197327355235"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="62423861458069"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="62496317787755"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/builds/debug/62496317787755/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="62616798989561"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/builds/debug/62616798989561/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="63013357693252"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/vincentteng/Desktop/Dev/UTSC/CSCB07/team_0565/p3a/CSCB07CourseProject/app/build/intermediates/reload-dex/debug/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+
+</instant-run>

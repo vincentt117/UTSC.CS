@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cs.b07.cscb07courseproject"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="25" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission." />
+
+    <application
+        android:name="com.android.tools.fd.runtime.BootstrapApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        //android:theme="@style/Theme.AppCompat.Material">
+        <activity android:name="cs.b07.cscb07courseproject.Login" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="cs.b07.cscb07courseproject.ClientRegistration" >
+        </activity>
+        <activity android:name="cs.b07.cscb07courseproject.ClientHomepage" >
+        </activity>
+        <activity android:name="cs.b07.cscb07courseproject.EditProfile" >
+        </activity>
+        <activity android:name="cs.b07.cscb07courseproject.RegisteredClient" >
+        </activity>
+        <activity android:name="cs.b07.cscb07courseproject.ClientBookingResult" >
+        </activity>
+        <activity android:name="cs.b07.cscb07courseproject.ClientSearchFlights" >
+        </activity>
+        <activity android:name="cs.b07.cscb07courseproject.ClientDisplaySearchedFlights" >
+        </activity>
+        <activity android:name="cs.b07.cscb07courseproject.AdminHomepage" >
+        </activity>
+        <activity android:name="cs.b07.cscb07courseproject.AdminEditClientInfo" >
+        </activity>
+        <activity android:name="cs.b07.cscb07courseproject.AdminDisplaySearchedFlights" >
+        </activity>
+        <activity android:name="cs.b07.cscb07courseproject.AdminSearchFlights" >
+        </activity>
+        <activity android:name="cs.b07.cscb07courseproject.AdminLogout" >
+        </activity>
+        <activity android:name="cs.b07.cscb07courseproject.AdminEditFlights" >
+        </activity>
+        <activity android:name="cs.b07.cscb07courseproject.AdminDisplayFlightDB" >
+        </activity>
+        <activity android:name="cs.b07.cscb07courseproject.AdminDisplayClientDB" >
+        </activity>
+        <activity android:name="cs.b07.cscb07courseproject.AdminBookFlights" >
+        </activity>
+        <activity android:name="cs.b07.cscb07courseproject.AdminBookResults" >
+        </activity>
+    </application>
+
+</manifest>
